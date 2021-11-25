@@ -844,7 +844,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, AppService);
 
         this.http = http;
-        this.dburl = "http://localhost:8080/api/";
+        this.dburl = "/api/";
         this.weburl = "https://api.countrystatecity.in/v1/countries";
         this.apikey = "eTZiYVBsQXZRMFBYdE1McEhuZ1M3VG1PM0N2VGYyajdPb004OWFTaA==";
       }

@@ -444,7 +444,7 @@ __webpack_require__.r(__webpack_exports__);
 class AppService {
     constructor(http) {
         this.http = http;
-        this.dburl = "http://localhost:8080/api/";
+        this.dburl = "/api/";
         this.weburl = "https://api.countrystatecity.in/v1/countries";
         this.apikey = "eTZiYVBsQXZRMFBYdE1McEhuZ1M3VG1PM0N2VGYyajdPb004OWFTaA==";
     }
